@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1ot80elb8tpl"]
+
+[ext_resource type="PackedScene" uid="uid://ddyvurwpsim3s" path="res://solo.tscn" id="1_tr6oq"]
+[ext_resource type="PackedScene" uid="uid://yleyy5187q1u" path="res://plantadora.tscn" id="2_m7tbw"]
+
+[node name="principal" type="Node2D"]
+
+[node name="SOLO" parent="." instance=ExtResource("1_tr6oq")]
+
+[node name="PLANTADORA" parent="SOLO" instance=ExtResource("2_m7tbw")]
+position = Vector2(576, 327)
